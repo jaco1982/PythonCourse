@@ -10,8 +10,7 @@ while True:
     guess = low + (high - low) // 2
     high_low = input(
         "My guess is {}. Should I guess higher or lower? "
-        "Enter h or l, or c if my guess was correct "
-        .format(guess).casefold())
+        "Enter h or l, or c if my guess was correct".format(guess).casefold())
     if high_low == "h":
         # Guess higher - the low end becomes 1 greater than the guess
         low = guess + 1
@@ -25,6 +24,5 @@ while True:
         break
     else:
         print("Please enter h, l or c")
-    
+
     guesses += 1
-    
