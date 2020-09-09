@@ -7,5 +7,5 @@ while chosen_exit not in available_exists:
     if chosen_exit.casefold() == "quit":
         print("Game over")
         break
-
-print("Aren't you glad you're out of there?")
+else:
+    print("Aren't you glad you're out of there?")
